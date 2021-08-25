@@ -1,0 +1,11 @@
+data:
+  data: /content/drive/MyDrive/data/letras.json
+  output_dir: /content/drive/MyDrive/data/results
+  logging_dir: /content/drive/MyDrive/data/nacional/logs
+  steps: 10000
+
+model:
+  model_name: google/byt5-small
+  learning_rate: 1e-4
+  batch_size: 1
+  num_epochs: 1
